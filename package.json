@@ -1,0 +1,33 @@
+{
+  "name": "tsti",
+  "version": "1.0.0",
+  "description": "Technical Indicators for stock market analysis - written in typescript",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon dist/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSSDeveloper/tsti.git"
+  },
+  "keywords": [
+    "Technical Indicators",
+    "Stock Market",
+    "Algo Trading",
+    "Type Script",
+    "Node.js"
+  ],
+  "author": "ossdeveloper8@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OSSDeveloper/tsti/issues"
+  },
+  "homepage": "https://github.com/OSSDeveloper/tsti#readme",
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15",
+    "typescript": "^4.5.5"
+  }
+}
