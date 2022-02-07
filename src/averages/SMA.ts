@@ -3,7 +3,7 @@ import {Precision} from "../base/Precision";
 
 export class SMA{
 
-    private _sma:number;
+    private readonly _sma:number;
     public get sma(){
         return this._sma;
     }
