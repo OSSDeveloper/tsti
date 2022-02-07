@@ -1,6 +1,6 @@
 {
   "name": "tsti",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Technical Indicators for stock market analysis - written in typescript",
   "main": "index.js",
   "scripts": {
