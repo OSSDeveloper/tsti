@@ -1,4 +1,3 @@
-
 import Precision from "../base/Precision";
 import SMA from "./SMA";
 

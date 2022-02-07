@@ -1,6 +1,6 @@
 import {Prec} from "./Prec";
 
-class Precision{
+export class Precision{
 
     private _fixMultiplier(n:Prec):number{
         let x = 1;
@@ -31,5 +31,3 @@ class Precision{
         return Math.round(n*this._curPrec)/this._curPrec;
     }
 }
-
-export default Precision;

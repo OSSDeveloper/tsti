@@ -1,7 +1,7 @@
 import {Prec} from "../base/Prec";
-import Precision from "../base/Precision";
+import {Precision} from "../base/Precision";
 
-class SMA{
+export class SMA{
 
     private _sma:number;
     public get sma(){
@@ -20,5 +20,3 @@ class SMA{
         }
     }
 }
-
-export default SMA;

@@ -1,7 +1,7 @@
 import {Prec} from "./Prec";
-import Precision from "./Precision";
+import {Precision} from "./Precision";
 
-class MathOps{
+export class MathOps{
 
     private precision = new Precision();
     constructor(prec?: Prec) {
@@ -13,13 +13,17 @@ class MathOps{
     private ops(ary:Array<number>,op:string):number{
         let _num = 0;
         if(op==='multiply') _num = 1;
-        for(let i=0; i<ary.length; i++){
-            if(op === 'add'){
+
+        if(op === 'add'){
+            for(let i=0; i<ary.length; i++){
                 _num += ary[i];
-            }else if(op==='multiply'){
+            }
+        }else if(op==='multiply'){
+            for(let i=0; i<ary.length; i++){
                 _num *= ary[i];
             }
         }
+
         return this.precision.sanitize(_num);
     }
     add(aryNum:Array<number>):number{
@@ -38,5 +42,3 @@ class MathOps{
         return (this.precision.sanitize(a/b));
     }
 }
-
-export default MathOps;
