@@ -1,5 +1,5 @@
-import Precision from "../base/Precision";
-import SMA from "./SMA";
+import {Precision} from "../base/Precision";
+import {SMA} from "./SMA";
 
 class EMA{
 
