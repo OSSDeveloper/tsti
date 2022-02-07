@@ -16,4 +16,3 @@ export class Tsti{
 // console.log(`Multiply - `, mathOps.multiply([5.16284263,1.62531289]));
 // console.log(`Division - `, mathOps.divide(5.16284263,1.62531289));
 // const sma = new SMA([5.16284263,1.62531289,5.16284263],prec).sma;
-// console.log(`SMA - `, sma);
